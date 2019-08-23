@@ -74,3 +74,6 @@ document.querySelectorAll('p#notification')
 ```
 
 ![cssWithTagAndId](images/querySelector_IDAnd Tag.png)
+
+
+#### :rocket: 

@@ -68,6 +68,7 @@ document.querySelectorAll('#notification')
 ![csswithid](images/querySelector_ID.png)
 
 
+
 #### :rocket: Using Tag and ID together
 
 ```javascript
@@ -77,4 +78,24 @@ document.querySelectorAll('p#notification')
 ![cssWithTagAndId](images/querySelector_IDAndTag.png)
 
 
-#### :rocket: 
+#### :rocket: Immediate child and index (nth-child)
+
+> To search element's direct child use *>* symbol. For example:
+
+```javascript
+div#chrome-container > div
+
+div#chrome-container > div:nth-child(1)
+```
+![directchild_atindex](images/directchild_nthchild.png)
+
+
+
+#### :rocket: Indirect Child
+
+```javascript
+div#chrome-container  div._15y4BAYUOX8GKU
+```
+![indirectchild](images/indirectchild.png)
+
+

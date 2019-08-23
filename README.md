@@ -16,7 +16,7 @@ Elements tab allow you to access page source and Console allows you to fire js c
 
 When we type **document** in console and hit ENTER, we get complete html document.
 
-[document](/images/document.png)
+![document](/images/document.png)
 
 
 #### 2. document.querySelector

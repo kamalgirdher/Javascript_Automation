@@ -14,7 +14,7 @@ Elements tab allow you to access page source and Console allows you to fire js c
 ## Commands Overview and Object Identification using CSS
 
 
-### What is DOM? What is output of command:
+### :rocket: What is DOM? What is output of command:
 
 ```javascript
 document
@@ -25,7 +25,6 @@ document
 When we type **document** in console and hit ENTER, we get complete html document.
 
 ![document](images/document.png)
-
 
 
 ### Methods to select elements on page.

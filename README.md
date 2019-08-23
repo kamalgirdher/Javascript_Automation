@@ -11,10 +11,12 @@ Elements tab allow you to access page source and Console allows you to fire js c
 
 
 
-## Commands Overview and Object Identification using CSS
+# Commands Overview and Object Identification using CSS
+
+--------------------------------------------------------
 
 
-### :rocket: What is DOM? What is output of command:
+#### :rocket: What is document
 
 ```javascript
 document
@@ -27,15 +29,13 @@ When we type **document** in console and hit ENTER, we get complete html documen
 ![document](images/document.png)
 
 
-### Methods to select elements on page.
+#### :rocket: Methods to select elements on page.
 
 ```javascript
 document.querySelector(selector)
 ```
 
 > querySelector functions locate element(s) on the page based on selector given as the argument. It returns single element. If multiple elements exist for the matching criteria, it returns first element.
-
-
 
 ```javascript
 document.querySelectorAll(selector)
@@ -44,8 +44,7 @@ document.querySelectorAll(selector)
 > querySelectorAll returns list of elements and their count.
 
 
-
-### Using Tag Name
+#### :rocket: Using Tag Name
 
 ```javascript
 document.querySelector('div')
@@ -53,7 +52,7 @@ document.querySelector('div')
 ![tagname](images/querySelector_querySelectorAll_TagName.png)
 
 
-### Using ID
+#### :rocket: Using ID
 
 ```javascript
 document.querySelectorAll('#trello-root')
@@ -68,7 +67,7 @@ document.querySelectorAll('#notification')
 ![csswithid](images/qquerySelector_ID.png)
 
 
-### Using Tag and ID together
+#### :rocket: Using Tag and ID together
 
 ```javascript
 document.querySelectorAll('p#notification')

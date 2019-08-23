@@ -9,7 +9,12 @@ Open trello dashboard(https://trello.com) in chrome. And open Developer Tools (C
 Elements tab allow you to access page source and Console allows you to fire js commands.
 
 
+
+
 ## Commands Overview and Object Identification using CSS
+
+
+### What is DOM? What is output of command:
 
 ```javascript
 document
@@ -22,20 +27,52 @@ When we type **document** in console and hit ENTER, we get complete html documen
 ![document](images/document.png)
 
 
-#### 2. document.querySelector
 
-#### 3. document.querySelectorAll
+### Methods to select elements on page.
 
-#### 4. Using Tag Name
+```javascript
+document.querySelector(selector)
+```
+
+> querySelector functions locate element(s) on the page based on selector given as the argument. It returns single element. If multiple elements exist for the matching criteria, it returns first element.
+
+
+
+```javascript
+document.querySelectorAll(selector)
+```
+
+> querySelectorAll returns list of elements and their count.
+
+
+
+### Using Tag Name
+
+```javascript
 document.querySelector('div')
+```
+![tagname](images/querySelector_querySelectorAll_TagName.png)
 
-#### 5. Using ID
+
+### Using ID
+
+```javascript
 document.querySelectorAll('#trello-root')
+```
 
-
+```javascript
 document.querySelectorAll('#notification')
+```
+
+> According to css selector rules, **#** symbol is used to search elements using id.
+
+![csswithid](images/qquerySelector_ID.png)
 
 
+### Using Tag and ID together
 
-#### 6. Using Tag and ID together
+```javascript
 document.querySelectorAll('p#notification')
+```
+
+![cssWithTagAndId](images/querySelector_IDAnd Tag.png)

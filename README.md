@@ -15,6 +15,7 @@ Elements tab allow you to access page source and Console allows you to fire js c
 
 --------------------------------------------------------
 
+*Tutorial 1 :  https://youtu.be/oOhQix38a7s*
 
 #### :rocket: What is document
 

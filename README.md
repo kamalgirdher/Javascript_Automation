@@ -1,4 +1,5 @@
-# Javascript_Automation
+# Javascript Automation
+
 This repository is to learn Javascript automation from scratch.
 
 To start with Javascript automation, you should have fair understanding of the HTML page source code and CSS styling. Let's begin with that.
@@ -12,7 +13,7 @@ Elements tab allow you to access page source and Console allows you to fire js c
 
 #### 1. document
 
-> Document object represents HTML document that is currently open in the browser. It has various properties. The way a document content is accessed and modified is called the Document Object Model, or DOM.
+:rocket: > Document object represents HTML document that is currently open in the browser. It has various properties. The way a document content is accessed and modified is called the Document Object Model, or DOM.
 
 When we type **document** in console and hit ENTER, we get complete html document.
 

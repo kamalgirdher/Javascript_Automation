@@ -65,7 +65,7 @@ document.querySelectorAll('#notification')
 
 > According to css selector rules, **#** symbol is used to search elements using id.
 
-![csswithid](images/qquerySelector_ID.png)
+![csswithid](images/querySelector_ID.png)
 
 
 #### :rocket: Using Tag and ID together
@@ -74,7 +74,7 @@ document.querySelectorAll('#notification')
 document.querySelectorAll('p#notification')
 ```
 
-![cssWithTagAndId](images/querySelector_IDAnd Tag.png)
+![cssWithTagAndId](images/querySelector_IDAndTag.png)
 
 
 #### :rocket: 

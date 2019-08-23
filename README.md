@@ -11,7 +11,9 @@ Elements tab allow you to access page source and Console allows you to fire js c
 
 ## Commands Overview and Object Identification using CSS
 
-:rocket:  **document**
+```javascript
+document
+```
 
 > Document object represents HTML document that is currently open in the browser. It has various properties. The way a document content is accessed and modified is called the Document Object Model, or DOM.
 

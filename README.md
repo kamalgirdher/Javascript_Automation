@@ -9,6 +9,7 @@ Open trello dashboard(https://trello.com) in chrome. And open Developer Tools (C
 Elements tab allow you to access page source and Console allows you to fire js commands.
 
 
+![automation](images/demo.gif)
 
 
 # Commands Overview and Object Identification using CSS
@@ -76,6 +77,10 @@ document.querySelectorAll('p#notification')
 ```
 
 ![cssWithTagAndId](images/querySelector_IDAndTag.png)
+
+
+*Tutorial 2 :  *
+
 
 
 #### :rocket: Immediate child and index (nth-child)
